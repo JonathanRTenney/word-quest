@@ -1,7 +1,7 @@
 /* Word Quest service worker. The page is network first (so a new version arrives as soon as she is online)
    and falls back to the cached copy offline. Manifest, icons and fonts are cache first. */
 'use strict';
-const CACHE = 'wordquest-2026-11-13';
+const CACHE = 'wordquest-2026-11-13b';
 const CORE = ['./', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/apple-touch-icon.png',
   './fonts/cinzel-latin-600-normal.woff2', './fonts/cinzel-latin-700-normal.woff2', './fonts/atkinson-hyperlegible-latin-400-normal.woff2', './fonts/atkinson-hyperlegible-latin-700-normal.woff2', './fonts/atkinson-hyperlegible-latin-400-italic.woff2'];
 
